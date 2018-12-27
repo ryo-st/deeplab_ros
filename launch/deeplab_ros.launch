@@ -4,6 +4,6 @@
         <param name="per" type="double" value="0.3" />
         <param name="dev" type="string" value="1" />
         <remap from="/usb_cam/image_raw"                  to="/camera/color/image_raw" />
-        <remap from="/segmentation/image" to="/segmentation/image"/>
+        <!-- <remap from="/segmentation/image" to="/segmentation/image"/> -->
     </node>
 </launch>
